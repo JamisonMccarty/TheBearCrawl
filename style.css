@@ -244,3 +244,15 @@ path {
   75%{border-color: #DDDD00;background-color: #DDDD00; color:white;}
   100%{border-color: #FF4500;background-color: #FF4500; color:white;}
   }
+@media only screen and (min-width:321px) and (max-width:480px) { 
+  .btn {
+  font-size:0.875em;
+  display:block;
+  left:-60px;
+  margin-top:35px;
+}
+
+.city {
+  font-size: 2.5vw;
+  margin-top: 20px;
+}}
