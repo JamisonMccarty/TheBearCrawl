@@ -15,6 +15,9 @@ navbar {
   height: 20em;
   background-color: fff;
 }
+.icon{
+  margin: 0px 10px 0px 10px;
+}
 
 .middle-nav {
   background-color: #fff;
@@ -244,7 +247,7 @@ path {
   75%{border-color: #DDDD00;background-color: #DDDD00; color:white;}
   100%{border-color: #FF4500;background-color: #FF4500; color:white;}
   }
-@media only screen and (min-width:321px) and (max-width:480px) { 
+@media only screen and (min-width:321px) and (max-width:480px) {
   .btn {
   font-size:0.875em;
   display:block;
