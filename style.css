@@ -21,8 +21,6 @@ navbar {
 
 .middle-nav {
   background-color: #fff;
-  /* padding-left: 300px;
-  padding-right: 300px; */
 }
 
 .footer {
@@ -67,10 +65,6 @@ navbar {
   padding-top: 50px;
 }
 
-/* .music-cols {
- width: 400px;
-} */
-
 .col-container {
   display: table;
   width: 100%;
@@ -93,13 +87,49 @@ max-height: 600px;
 overflow: hidden;
 }
 
-.blurb {
+#blurb1, #blurb2, #blurb4, #blurb5, #blurb6, #blurb7 {
   text-align: left;
   font-family: Futura, sans-serif;
   font-style: italic;
   color: #313133;
   font-weight: 600;
+  /*height: 275px;*/
+}
 
+#blurb3 {
+  text-align: left;
+  font-family: Futura, sans-serif;
+  font-style: italic;
+  color: #313133;
+  font-weight: 400;
+}
+
+#crawl-stop {
+  margin-right: 20px;
+  padding: 0px !important; !important
+}
+
+#crawl-blurb {
+  width: 90%;
+  margin-left: 30px;
+}
+
+.lineup-item {
+  border-left: 2px solid #2C5B5A;
+}
+
+ 
+.location h3 {
+  color: #E40043;
+}
+
+.location {
+  padding-right: 100px;
+}
+
+.location p {
+  color: #2C5B5A;
+  font-size: 18px;
 }
 
 .lineup {
@@ -122,6 +152,76 @@ overflow: hidden;
   padding-top: 35px;
   height: 0;
   overflow: hidden;
+}
+
+
+#bubble {
+  position: absolute;
+  top: 15px;
+  left: -16px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #2C5B5A;
+  border: 3px solid #2C5B5A;
+  border-radius: 50px;
+}
+
+#bubble:hover {
+  background-color: #E40043;
+  border: 3px solid #E40043;
+  /*position: absolute;
+  top: 0px;
+  left: -21px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #2C5B5A;
+  border: 1px solid #2C5B5A;
+  border-radius: 50px;*/
+}
+
+#btn:focus {
+  margin: 0px;
+  height: 40px;
+  width: 130px;
+  border: 3px solid #8CB7CD;
+  background-color: #8CB7CD;
+  font-color: white;
+  outline: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#btn {
+  height: 40px;
+  width: 130px;
+  border: 3px solid #8CB7CD;
+  background-color: white;
+  font-color: #8CB7CD;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#btn2 {
+  margin: 0px;
+  height: 40px;
+  width: 130px;
+  border: 3px solid #8CB7CD;
+  background-color: white;
+  font-color: #8CB7CD;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#btn2:focus {
+  outline: none;
+  height: 40px;
+  width: 130px;
+  border: 3px solid #8CB7CD;
+  background-color: #8CB7CD;
+  font-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /*---Media Queries --*/
