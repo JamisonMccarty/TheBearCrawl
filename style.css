@@ -93,6 +93,29 @@ max-height: 600px;
 overflow: hidden;
 }
 
+.blurb {
+  text-align: left;
+  font-family: Futura, sans-serif;
+  font-style: italic;
+  color: #313133;
+  font-weight: 600;
+
+}
+
+.lineup {
+  font-family: Futura, sans-serif;
+  color: #E40043;
+  font-weight: 800;
+  font-size: 5vw;
+}
+
+.subtitle {
+  font-family: Futura, sans-serif;
+  color: #2C5B5A;
+  font-weight: 800;
+  font-size: 1.5vw;
+}
+
 .surveymonkey {
   position: relative;
   padding-bottom: 56.25%;
