@@ -11,8 +11,13 @@ navbar {
   padding: .8rem;
 }
 
+/*.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}*/
+
 .landing {
-  height: 20em;
+  height: 15em;
   background-color: fff;
 }
 .icon{
