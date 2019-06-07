@@ -168,8 +168,8 @@ overflow: hidden;
 }
 
 #bubble:hover {
-  background-color: #E40043;
-  border: 3px solid #E40043;
+  /*background-color: #E40043;*/
+  border: 3px solid #2C5B5A;
   /*position: absolute;
   top: 0px;
   left: -21px;
@@ -177,17 +177,17 @@ overflow: hidden;
   height: 40px;
   color: white;
   background-color: #2C5B5A;
-  border: 1px solid #2C5B5A;
-  border-radius: 50px;*/
+  border: 1px solid #2C5B5A;*/
+  border-radius: 0px;
 }
 
 #btn:focus {
   margin: 0px;
   height: 40px;
   width: 130px;
-  border: 3px solid #8CB7CD;
-  background-color: #8CB7CD;
-  font-color: white;
+  border: 3px solid #2C5B5A;
+  background-color: #2C5B5A;
+  color: white;
   outline: none;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -195,9 +195,10 @@ overflow: hidden;
 #btn {
   height: 40px;
   width: 130px;
-  border: 3px solid #8CB7CD;
+  border: 3px solid #2C5B5A;
   background-color: white;
-  font-color: #8CB7CD;
+  color: #2C5B5A;
+  font-weight: 500;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -206,9 +207,9 @@ overflow: hidden;
   margin: 0px;
   height: 40px;
   width: 130px;
-  border: 3px solid #8CB7CD;
+  border: 3px solid #2C5B5A;
   background-color: white;
-  font-color: #8CB7CD;
+  color: #2C5B5A;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -217,9 +218,9 @@ overflow: hidden;
   outline: none;
   height: 40px;
   width: 130px;
-  border: 3px solid #8CB7CD;
-  background-color: #8CB7CD;
-  font-color: white;
+  border: 3px solid #2C5B5A;
+  background-color: #2C5B5A;
+  color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
