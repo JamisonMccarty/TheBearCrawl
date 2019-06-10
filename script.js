@@ -14,13 +14,13 @@ function toggleBlurb(id) {
 }
 
 toggleMap('btn2').onclick = function () {
-  toggleMap('blurb1').innerHTML = '<img class="img-home" src="img/1a.png">';
-  toggleMap('blurb2').innerHTML = '<img class="img-home" src="img/2a.png">';
-  toggleMap('blurb3').innerHTML = '<img class="img-home" src="img/3a.png">';
-  toggleMap('blurb4').innerHTML = '<img class="img-home" src="img/4a.png">';
-  toggleMap('blurb5').innerHTML = '<img class="img-home" src="img/5a.png">';
-  toggleMap('blurb6').innerHTML = '<img class="img-home" src="img/6a.png">';
-  toggleMap('blurb7').innerHTML = '<img class="img-home" src="img/7a.png">';
+  toggleMap('blurb1').innerHTML = '<img class="img-home" src="img/1.png">';
+  toggleMap('blurb2').innerHTML = '<img class="img-home" src="img/2.png">';
+  toggleMap('blurb3').innerHTML = '<img class="img-home" src="img/3.png">';
+  toggleMap('blurb4').innerHTML = '<img class="img-home" src="img/4.png">';
+  toggleMap('blurb5').innerHTML = '<img class="img-home" src="img/5.png">';
+  toggleMap('blurb6').innerHTML = '<img class="img-home" src="img/6.png">';
+  toggleMap('blurb7').innerHTML = '<img class="img-home" src="img/7.png">';
 }
 
 function toggleMap(id) {
