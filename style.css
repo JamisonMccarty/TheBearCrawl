@@ -79,18 +79,20 @@ navbar {
 }
 
 .survey {
-  position: relative;
+  margin: 0 auto;
+  max-width: 700px;
+/*  position: relative;
   width: 70%;
-  margin-left: auto;
+  margin-left: auto;*/
 }
 
-iframe {
+/*iframe {
 border-style: none;
 background-color:transparent;
-/*min-height: 400px; */
+min-height: 400px; 
 max-height: 600px; 
 overflow: hidden;
-}
+}*/
 
 /*#blurb1, #blurb2, #blurb4, #blurb5, #blurb6, #blurb7 {
   text-align: left;
