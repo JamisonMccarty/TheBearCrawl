@@ -14,25 +14,28 @@ function toggleBlurb(id) {
 }
 
 toggleMap('btn2').onclick = function () {
-  toggleMap('blurb1').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12417.211654117318!2d-77.05658026084573!3d38.91705342308023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7d42f3b45b1%3A0xc635e80f034f5e91!2s2511+Woodley+Rd+NW%2C+Washington%2C+DC+20008!5e0!3m2!1sen!2sus!4v1559939411504!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
-  toggleMap('blurb2').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.6649310863672!2d-77.04821228447051!3d38.908776979569005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7c86b6037cb%3A0x93419de78eb9f544!2s2021+O+St+NW%2C+Washington%2C+DC+20036!5e0!3m2!1sen!2sus!4v1559939296621!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
-  toggleMap('blurb3').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.0321637208103!2d-77.02910101470603!3d38.91730398644979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75934ed2703e2e04!2sU+Street+Music+Hall!5e0!3m2!1sen!2sus!4v1559939460223!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
-  toggleMap('blurb4').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12417.028227713336!2d-77.02910262711626!3d38.91810169079075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e5308e8eef%3A0x6a390001471f7fc3!2sTAKODA!5e0!3m2!1sen!2sus!4v1559939488489!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
-  toggleMap('blurb5').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1552.2316030380903!2d-77.01713956773052!3d38.913388998399505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7f0b6aca63d%3A0x7702658e5455e202!2s401+Richardson+Pl+NW%2C+Washington%2C+DC+20001!5e0!3m2!1sen!2sus!4v1559939548617!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
-  toggleMap('blurb6').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1552.1285364292091!2d-77.0247409480789!3d38.91810132663807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e4f107e62f%3A0x21865997cbb44b02!2s919+Florida+Ave+NW%2C+Washington%2C+DC+20001!5e0!3m2!1sen!2sus!4v1559939571842!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
-  toggleMap('blurb7').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18990.010739589434!2d-77.01206031695331!3d38.912846192706304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7877e5ce9d9%3A0x2ab96c0cec945ec3!2sEchostage!5e0!3m2!1sen!2sus!4v1559939595166!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
+  toggleMap('blurb1').innerHTML = '<img class="img-home" src="img/2a.png">';
+  toggleMap('blurb2').innerHTML = '<img class="img-home" src="img/1a.png">';
+  toggleMap('blurb3').innerHTML = '<img class="img-home" src="img/5a.png">';
+  toggleMap('blurb4').innerHTML = '<img class="img-home" src="img/5a.png">';
+  toggleMap('blurb5').innerHTML = '<img class="img-home" src="img/4a.png">';
+  toggleMap('blurb6').innerHTML = '<img class="img-home" src="img/3a.png">';
+  toggleMap('blurb7').innerHTML = '<img class="img-home" src="img/7a.png">';
 }
 
 function toggleMap(id) {
   return document.getElementById(id);
 }
 
+
+
+
 // toggleMap('btn2').onclick = function () {
 //   toggleMap('blurb1').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12417.211654117318!2d-77.05658026084573!3d38.91705342308023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7d42f3b45b1%3A0xc635e80f034f5e91!2s2511+Woodley+Rd+NW%2C+Washington%2C+DC+20008!5e0!3m2!1sen!2sus!4v1559939411504!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
-//   toggleMap('blurb2').innerHTML = '<img class="img-home" src="img/3.PNG">';
-//   toggleMap('blurb3').innerHTML = '<img class="img-home" src="img/6.PNG">';
-//   toggleMap('blurb4').innerHTML = '<img class="img-home" src="img/5.PNG">';
-//   toggleMap('blurb5').innerHTML = '<img class="img-home" src="img/3.PNG">';
-//   toggleMap('blurb6').innerHTML = '<img class="img-home" src="img/2.PNG">';
-//   toggleMap('blurb7').innerHTML = '<img class="img-home" src="img/2.PNG">';
+//   toggleMap('blurb2').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.6649310863672!2d-77.04821228447051!3d38.908776979569005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7c86b6037cb%3A0x93419de78eb9f544!2s2021+O+St+NW%2C+Washington%2C+DC+20036!5e0!3m2!1sen!2sus!4v1559939296621!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
+//   toggleMap('blurb3').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.0321637208103!2d-77.02910101470603!3d38.91730398644979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75934ed2703e2e04!2sU+Street+Music+Hall!5e0!3m2!1sen!2sus!4v1559939460223!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
+//   toggleMap('blurb4').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12417.028227713336!2d-77.02910262711626!3d38.91810169079075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e5308e8eef%3A0x6a390001471f7fc3!2sTAKODA!5e0!3m2!1sen!2sus!4v1559939488489!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
+//   toggleMap('blurb5').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1552.2316030380903!2d-77.01713956773052!3d38.913388998399505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7f0b6aca63d%3A0x7702658e5455e202!2s401+Richardson+Pl+NW%2C+Washington%2C+DC+20001!5e0!3m2!1sen!2sus!4v1559939548617!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
+//   toggleMap('blurb6').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1552.1285364292091!2d-77.0247409480789!3d38.91810132663807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e4f107e62f%3A0x21865997cbb44b02!2s919+Florida+Ave+NW%2C+Washington%2C+DC+20001!5e0!3m2!1sen!2sus!4v1559939571842!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
+//   toggleMap('blurb7').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18990.010739589434!2d-77.01206031695331!3d38.912846192706304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7877e5ce9d9%3A0x2ab96c0cec945ec3!2sEchostage!5e0!3m2!1sen!2sus!4v1559939595166!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>';
 // }
