@@ -11,15 +11,11 @@ navbar {
   padding: .8rem;
 }
 
-/*.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}*/
-
 .landing {
   height: 15em;
   background-color: #fff;
 }
+
 .icon{
   margin: 0px 10px 0px 10px;
 }
@@ -91,7 +87,7 @@ navbar {
 iframe {
 border-style: none;
 background-color:transparent;
-min-height: 400px; 
+/*min-height: 400px; */
 max-height: 600px; 
 overflow: hidden;
 }
@@ -170,7 +166,7 @@ overflow: hidden;
 
 #bubble {
   position: absolute;
-  top: 15px;
+  top: 0px;
   left: -16px;
   width: 30px;
   height: 30px;
@@ -194,6 +190,18 @@ overflow: hidden;
   border-radius: 0px;
 }
 
+#btn {
+  cursor: pointer;
+  height: 40px;
+  width: 130px;
+  border: 3px solid #2C5B5A;
+  background-color: white;
+  color: #2C5B5A;
+  font-weight: 500;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 #btn:focus {
   margin: 0px;
   height: 40px;
@@ -205,18 +213,9 @@ overflow: hidden;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-#btn {
-  height: 40px;
-  width: 130px;
-  border: 3px solid #2C5B5A;
-  background-color: white;
-  color: #2C5B5A;
-  font-weight: 500;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
 
 #btn2 {
+  cursor: pointer;
   margin: 0px;
   height: 40px;
   width: 130px;
@@ -249,7 +248,12 @@ overflow: hidden;
 .img-title {
   width: 30%;
   height: auto;
-  padding-top: 30px;
+  padding-top: 0px;
+}
+
+.landing {
+  height: 170px;
+  background-color: #fff;
 }
 
 .lineup {
@@ -264,6 +268,9 @@ overflow: hidden;
   color: #2C5B5A;
   font-weight: 800;
   font-size: 12px;
+}
+#crawl-stop {
+  text-align: center;
 }
 
 }
@@ -436,4 +443,10 @@ path {
   margin-top: 20px;
 }}
 
+.col-xs-12 {
+  justify-content: center;
+}
 
+.col-xs-12, .col-sm-5, .col-md-5, .col-lg-5, .col-sm-6, .col-md-6, .col-lg-6 {
+  padding-top: 0px;
+}
