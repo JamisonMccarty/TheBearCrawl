@@ -215,6 +215,7 @@ overflow: hidden;
 }
 
 #btn2 {
+  font-weight: 500;
   cursor: pointer;
   margin: 0px;
   height: 40px;
