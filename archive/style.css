@@ -18,10 +18,22 @@ navbar {
 
 .landing {
   height: 15em;
-  background-color: #fff;
+  background-color: fff;
 }
 .icon{
   margin: 0px 10px 0px 10px;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  
+  position: absolute;
+  top: 15px;
+  left: -16px;
 }
 
 .middle-nav {
@@ -57,10 +69,6 @@ navbar {
 .img-home {
   width: 100%;
   height: auto;
-}
-
-.container {
-  padding: 0px;
 }
 
 .main-logo {
@@ -143,7 +151,6 @@ overflow: hidden;
   color: #2C5B5A;
   font-size: 18px;
 }
-
 
 .lineup {
   font-family: Futura, sans-serif;
