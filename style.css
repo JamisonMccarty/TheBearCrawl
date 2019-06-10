@@ -273,6 +273,13 @@ overflow: hidden;
   text-align: center;
 }
 
+.survey {
+  position: relative;
+  /*width: 70%;*/
+  margin-left: 10%;
+
+}
+
 }
 
 
