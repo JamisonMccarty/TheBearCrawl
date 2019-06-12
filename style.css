@@ -7,10 +7,6 @@ html, body {
   color: #222;
 }
 
-navbar {
-  padding: .8rem;
-}
-
 .landing {
   height: 15em;
   background-color: #fff;

@@ -27,6 +27,27 @@ function toggleMap(id) {
   return document.getElementById(id);
 }
 
+toggleDarkMode('btn3').onclick = function(){let body = document.getELementById("body");
+  let currentClass = body.className = currentClass =="dark-mode" ? "light-mode" :"dark-mode";
+
+  toggleDarkMode('btn3').innerHTML = '<img class="img-home" src="img/2.png">';
+}
+
+function toggleDarkMode(id) {
+  return document.getElementById(id);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
